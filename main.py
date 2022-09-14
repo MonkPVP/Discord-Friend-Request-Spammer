@@ -10,7 +10,7 @@ from tasksio import TaskPool
 async def rc(len):
 	return os.urandom(len).hex()[len:]
 
-async def send_fr(s, token, user_id):
+async def send_fr(s, token, user_id): 704035106758721617
 	headers = {
 		'accept': '*/*',
 		'accept-encoding': 'gzip, deflate',
